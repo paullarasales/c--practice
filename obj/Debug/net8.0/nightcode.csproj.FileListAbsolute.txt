@@ -1,0 +1,14 @@
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.AssemblyInfoInputs.cache
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.AssemblyInfo.cs
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.csproj.CoreCompileInputs.cache
+C:\pracc\nightcode\bin\Debug\net8.0\nightcode.exe
+C:\pracc\nightcode\bin\Debug\net8.0\nightcode.deps.json
+C:\pracc\nightcode\bin\Debug\net8.0\nightcode.runtimeconfig.json
+C:\pracc\nightcode\bin\Debug\net8.0\nightcode.dll
+C:\pracc\nightcode\bin\Debug\net8.0\nightcode.pdb
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.dll
+C:\pracc\nightcode\obj\Debug\net8.0\refint\nightcode.dll
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.pdb
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.genruntimeconfig.cache
+C:\pracc\nightcode\obj\Debug\net8.0\ref\nightcode.dll
