@@ -12,3 +12,4 @@ C:\pracc\nightcode\obj\Debug\net8.0\refint\nightcode.dll
 C:\pracc\nightcode\obj\Debug\net8.0\nightcode.pdb
 C:\pracc\nightcode\obj\Debug\net8.0\nightcode.genruntimeconfig.cache
 C:\pracc\nightcode\obj\Debug\net8.0\ref\nightcode.dll
+C:\pracc\nightcode\obj\Debug\net8.0\nightcode.sourcelink.json
