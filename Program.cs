@@ -11,6 +11,10 @@ internal class Program
     {
         int[] arr = [4, 5, 3, 1, 2];
 
+        for (int i = 0; i < arr.Length; i++) {
+            Console.WriteLine(arr[i]);
+        }
+
         Sort(arr);
 
         Console.WriteLine("Sorted Array");
@@ -60,11 +64,22 @@ internal class Program
             Console.WriteLine(num + "");
         }
 
-        int[] sameValue = [2, 5, 8, 7, 2];
+        int[] union = ArrayUnion(number1, number2);
+        Console.WriteLine("Union of the array: ");
+
+        foreach (int num in union) {
+            Console.WriteLine(num + "");
+        }
+
+        int[] sameValue = {2, 5, 8, 7, 2};
         int sameinArr = SameValue(sameValue);
         Console.WriteLine("The same value in the array is: " + sameinArr);
 
         Console.WriteLine(Search(sameValue, 7));
+
+        int[] majorityArr = [1, 3, 2, 2, 2,];
+        int majority = Majority(majorityArr);
+        Console.WriteLine("The majority value in array is: " + majority);
     }
 
     static void Sort(int[] arr) {
@@ -225,6 +240,26 @@ internal class Program
         return intersection;
     }
 
+    static int[] ArrayUnion(int[] arr1, int[] arr2) {
+        int[] union = new int[Math.Min(arr1.Length, arr2.Length)];
+        int count = 0;
+
+        foreach (int num1 in arr1) {
+            if (!Contains(arr2, num1)) {
+                union[count++] = num1;
+            }
+        }
+
+        foreach (int num2 in arr2) {
+            if (!Contains(arr1, num2)) {
+                union[count++] = num2;
+            }
+        }
+
+        Array.Resize(ref union, count);
+        return union;
+    }
+
     static bool Contains(int[] array, int value) {
         foreach (int item in array) {
             if (item == value) {
@@ -258,5 +293,25 @@ internal class Program
 
         return index;
     }
+
+   static int Majority(int[] array) {
+        Dictionary<int, int> counts = new();
+        int majorityCount = array.Length / 2;
+
+        foreach (int num in array) {
+            if (counts.ContainsKey(num)) {
+                counts[num]++;
+                if (counts[num] > majorityCount) {
+                    return num;
+                }
+            } else {
+                counts[num] = 1;
+            }
+        }
+
+        return -1;
+    }
+
+    
 
 }

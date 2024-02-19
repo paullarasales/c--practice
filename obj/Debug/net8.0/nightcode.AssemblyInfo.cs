@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("nightcode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a171f54e1f25ce326382ffd0b88ba361e26ad923")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+260dbd748e9b64c05b88043a48a50b0a7ffa61a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("nightcode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("nightcode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
